@@ -1,0 +1,11 @@
+.rr-not-found-container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.rr-not-found {
+    color: var(--rr-color-font-secondary);
+    font-weight: 700;
+    font-size: 24px;
+}

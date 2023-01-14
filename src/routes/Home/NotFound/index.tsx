@@ -1,6 +1,9 @@
-export default function NotFound() {
+import './styles.css';
 
-    return (
-        <h2>Not Found</h2>
-    )
+export default function NotFound() {
+  return (
+    <div className="rr-not-found-container">
+      <h1 className="rr-not-found mt20">Não encontrado!</h1>
+    </div>
+  );
 }

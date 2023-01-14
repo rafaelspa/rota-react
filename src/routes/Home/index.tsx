@@ -12,7 +12,7 @@ export default function Home() {
           <div className="rr-home-links">
             <NavLink to="/home">Início</NavLink>
             <NavLink to="/products">Produtos</NavLink>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about">Sobre nós</NavLink>
           </div>
           <div className="rr-home-icon-container">
             <Link to="/">

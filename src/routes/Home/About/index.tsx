@@ -1,4 +1,9 @@
-export default function About() {
+import './styles.css';
 
-    return (<h2>About</h2>)
+export default function About() {
+  return (
+    <div className="rr-about-container">
+      <h1 className="rr-about mt20">Sobre nós</h1>
+    </div>
+  );
 }
