@@ -1,0 +1,33 @@
+header {
+    background-color: var(--rr-color-bg-primary);
+    height: 70px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.rr-home-navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.rr-home-links {
+    color: var(--rr-color-font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 20px;
+}
+
+.rr-home-links .active {
+    font-weight: 700;
+}
+
+.rr-home-icon-container img {
+    height: 30px;
+    width: 30px;
+}
