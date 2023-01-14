@@ -21,7 +21,9 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 }

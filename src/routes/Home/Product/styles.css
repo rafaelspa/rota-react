@@ -1,0 +1,28 @@
+.rr-products-navigation-container {
+    background-color: var(--rr-color-bg-terciary);
+    height: 60px;
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.rr-products-links {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--rr-color-font-secondary);
+    display: flex;
+    gap: 20px;
+}
+
+.rr-products-links .active {
+    font-weight: 700;
+}
+
+.rr-products-body-section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}

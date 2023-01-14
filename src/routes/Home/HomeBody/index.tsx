@@ -1,6 +1,12 @@
+import './styles.css';
+
 export default function HomeBody() {
 
     return (
-        <h2>HomeBody</h2>
+        <main>
+            <div className="rr-homebody-welcome-container">
+                <h1 className="rr-homebody-welcome mt20">Bem-vindos!</h1>
+            </div>
+        </main>
     )
 }

@@ -1,0 +1,11 @@
+.rr-homebody-welcome-container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.rr-homebody-welcome {
+    color: var(--rr-color-font-secondary);
+    font-weight: 700;
+    font-size: 24px;
+}

@@ -6,6 +6,7 @@ import Book from "./routes/Home/Product/Book"
 import Computer from "./routes/Home/Product/Computer"
 import Electronic from "./routes/Home/Product/Electronic"
 import NotFound from "./routes/Home/NotFound"
+import Product from "./routes/Home/Product"
 
 export default function App() {
 
@@ -15,7 +16,7 @@ export default function App() {
         <Route path="/" element={<Home/>}>
           <Route index element={<Navigate to="/home" />} />
           <Route path="home"  element={<HomeBody />}/>
-          <Route path="products">
+          <Route path="products" element={<Product />}>
             <Route index element={<Navigate to="computers" />} />
             <Route path="computers" element={<Computer />} />
             <Route path="electronics" element={<Electronic />} />
